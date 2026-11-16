@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="HerzTreff – internationale Singles kennenlernen und echte Verbindungen finden.">
+<title>HerzTreff – Finde deine Verbindung</title>
+<style>
+:root{--ink:#25172c;--muted:#746878;--plum:#713b70;--pink:#efb7cf;--cream:#fff9fc;--line:#eadde8}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--cream)}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+header{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:#fff}
+.brand{font-weight:850;font-size:1.55rem;letter-spacing:-.06em;color:var(--plum)}.brand span{color:#d65c91}
+nav{display:flex;gap:26px;align-items:center;font-size:.94rem;color:#57495b}
+.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;padding:13px 21px;font-weight:750;cursor:pointer;background:var(--plum);color:white;box-shadow:0 8px 22px #713b7026}
+.btn.secondary{background:white;color:var(--plum);border:1px solid var(--line);box-shadow:none}
+.hero{padding:76px 0 66px;background:radial-gradient(circle at 85% 20%,#f9dce9 0,transparent 28%),linear-gradient(135deg,#fff9fc,#f8edf5)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center}
+.kicker{display:inline-block;border:1px solid #ead1e1;color:var(--plum);background:#fff;padding:8px 13px;border-radius:99px;font-size:.82rem;font-weight:700}
+h1{font-size:clamp(2.7rem,6vw,4.8rem);line-height:1.02;letter-spacing:-.065em;margin:20px 0}
+h1 em{font-style:normal;color:#b64f83}.lead{font-size:1.13rem;line-height:1.7;color:var(--muted);max-width:560px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.fine{font-size:.82rem;color:#827487;margin-top:18px}
+.visual{min-height:390px;position:relative;display:grid;place-items:center}
+.glow{position:absolute;width:340px;height:340px;border-radius:50%;background:linear-gradient(145deg,#f4c9dc,#d9b5d9);filter:blur(1px)}
+.profile{position:relative;width:min(330px,90%);background:white;padding:12px;border-radius:25px;box-shadow:0 24px 70px #4b28502b;transform:rotate(3deg)}
+.photo{height:260px;border-radius:17px;background:linear-gradient(145deg,#d8b6ce,#f3d4dc 55%,#b98eb8);display:grid;place-items:center;color:#fff;font-size:5rem}
+.profile-info{padding:13px 7px 5px;display:flex;justify-content:space-between;align-items:center}.profile-info strong{font-size:1.08rem}.online{font-size:.78rem;color:#32835e}
+section{padding:70px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 34px}.section-head h2{font-size:2.1rem;letter-spacing:-.04em;margin:0 0 12px}.section-head p{color:var(--muted);line-height:1.6}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{background:white;border:1px solid var(--line);border-radius:18px;padding:24px}.feature .icon{font-size:1.7rem}.feature h3{margin:13px 0 7px}.feature p{margin:0;color:var(--muted);line-height:1.6;font-size:.94rem}
+.crypto{background:#2b1b31;color:#fff}.crypto .section-head p{color:#e2d3e3}.coins{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.coin{border:1px solid #765d7b;background:#3b2942;border-radius:99px;padding:12px 18px;font-weight:700}
+footer{padding:28px 0;color:#807285;font-size:.85rem;border-top:1px solid var(--line);background:#fff}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.notice{background:#fff4df;color:#674c20;border:1px solid #f1dfb9;border-radius:12px;padding:14px 16px;font-size:.88rem;line-height:1.5;margin-top:22px}
+@media(max-width:760px){nav a:not(.btn){display:none}.hero{padding:52px 0}.hero-grid{grid-template-columns:1fr;gap:15px}.visual{min-height:330px}.glow{width:280px;height:280px}.photo{height:220px}.features{grid-template-columns:1fr}.section-head h2{font-size:1.8rem}section{padding:54px 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;width:100%">
+    <a class="brand" href="#" aria-label="HerzTreff Startseite">♥ Herz<span>Treff</span></a>
+    <nav aria-label="Hauptnavigation">
+      <a href="#so-gehts">So funktioniert's</a><a href="#funktionen">Funktionen</a><a href="#premium">Premium</a>
+      <a class="btn" href="#start">Bald anmelden</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="hero" id="start">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker">♥ Für Singles weltweit · Ab 18 Jahren</span>
+        <h1>Finde deine Liebe.<br><em>Überall auf der Welt.</em></h1>
+        <p class="lead">HerzTreff bringt Menschen zusammen, die offen für echte Begegnungen sind. Lerne neue Singles kennen und entdecke Verbindungen über Ländergrenzen hinweg.</p>
+        <div class="actions">
+          <a class="btn" href="#so-gehts">HerzTreff entdecken</a>
+          <a class="btn secondary" href="#funktionen">Mehr erfahren</a>
+        </div>
+        <p class="fine">Kostenloser Start geplant · International · Respektvoll</p>
+      </div>
+      <div class="visual" aria-label="Illustrative Profilkarte">
+        <div class="glow"></div>
+        <div class="profile">
+          <div class="photo" aria-hidden="true">♥</div>
+          <div class="profile-info"><div><strong>Deine nächste Begegnung</strong><div style="font-size:.82rem;color:#817486;margin-top:4px">Beginnt mit einem Hallo</div></div><span class="online">● HerzTreff</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="so-gehts">
+    <div class="wrap">
+      <div class="section-head"><h2>Einfach kennenlernen</h2><p>HerzTreff soll es leicht machen, neue Menschen kennenzulernen – mit einem klaren Profil und einer Suche, die zu dir passt.</p></div>
+      <div class="features" id="funktionen">
+        <article class="feature"><div class="icon">👤</div><h3>Dein Profil</h3><p>Stelle dich vor, ergänze Interessen und teile nur die Informationen, die du zeigen möchtest.</p></article>
+        <article class="feature"><div class="icon">🌍</div><h3>International suchen</h3><p>Entdecke Singles aus verschiedenen Ländern und Kulturen.</p></article>
+        <article class="feature"><div class="icon">💬</div><h3>In Kontakt kommen</h3><p>Private Nachrichten und sichere Kontaktmöglichkeiten sind für den nächsten Entwicklungsschritt vorgesehen.</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="crypto" id="premium">
+    <div class="wrap">
+      <div class="section-head"><h2>Premium – auch mit Krypto</h2><p>Für spätere Premium-Funktionen ist die Unterstützung digitaler Währungen geplant. Die Zahlungsabwicklung wird erst nach Auswahl und Einrichtung eines passenden Zahlungsanbieters aktiviert.</p></div>
+      <div class="coins"><span class="coin">₿ Bitcoin</span><span class="coin">◎ Ethereum</span><span class="coin">₮ USDT</span></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 HerzTreff · Ein Projekt im Aufbau</span><span>18+ · Datenschutz und Sicherheit haben Priorität</span></div></footer>
+</body>
+</html>
